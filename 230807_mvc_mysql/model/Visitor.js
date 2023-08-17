@@ -2,9 +2,9 @@ const mysql = require('mysql');
 
 // mysql 연결
 const conn = mysql.createConnection({
-    host: 'localhost',
+    host: 'db-posco-kdt9-simson.cptbhraiff7i.ap-southeast-2.rds.amazonaws.com',
     user: 'simson',
-    password: 'simson',
+    password: '12345678',
     database: 'kdt9'
 });
 
